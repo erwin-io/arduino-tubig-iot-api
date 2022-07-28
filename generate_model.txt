@@ -1,0 +1,1 @@
+npx typeorm-model-generator -h ec2-44-208-88-195.compute-1.amazonaws.com -d d6rt1qot34ml15 -u xiesrjiqdcduot -x c02e5287926d43fecc0e5706c72668da5f6600064bb58c5661aa45c918d43c9a -e postgres -o src/shared
