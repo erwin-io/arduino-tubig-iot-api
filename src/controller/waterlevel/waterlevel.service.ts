@@ -21,7 +21,7 @@ export class WaterLevelService {
   async log(waterLevelDto: WaterLevelDto) {
     const { value, time } = waterLevelDto;
 
-    return await this.waterLevelRepo.create({
+    return await this.waterLevelRepo.save({
       value,
       time,
     });
