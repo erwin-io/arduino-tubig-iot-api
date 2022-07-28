@@ -4,8 +4,8 @@ import { CustomResponse } from "../../common/helper/customresponse.helpers";
 import { WaterLevelDto } from "./dto/waterlevel.dto";
 import { ApiQuery, ApiTags } from "@nestjs/swagger";
 
-@ApiTags("users")
-@Controller("users")
+@ApiTags("waterlevel")
+@Controller("waterlevel")
 export class WaterLevelController {
   constructor(private readonly waterLevelService: WaterLevelService) {}
 
